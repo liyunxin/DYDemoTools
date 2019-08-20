@@ -1,4 +1,13 @@
 use_frameworks!
-target 'DYDemoTools_Tests' do
+
+platform :ios, '8.0'
+
+target 'DYDemoTools_Example' do
   pod 'DYDemoTools', :path => '../'
+
+  target 'DYDemoTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end
