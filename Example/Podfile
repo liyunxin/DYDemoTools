@@ -1,0 +1,4 @@
+use_frameworks!
+target 'DYDemoTools_Tests' do
+  pod 'DYDemoTools', :path => '../'
+end
