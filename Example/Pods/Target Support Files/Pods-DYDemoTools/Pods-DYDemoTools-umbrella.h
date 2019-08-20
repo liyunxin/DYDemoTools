@@ -10,10 +10,7 @@
 #endif
 #endif
 
-#import "DYDemoToolsHeader.h"
-#import "DYDemoTools.h"
-#import "KHBarButton.h"
 
-FOUNDATION_EXPORT double DYDemoToolsVersionNumber;
-FOUNDATION_EXPORT const unsigned char DYDemoToolsVersionString[];
+FOUNDATION_EXPORT double Pods_DYDemoToolsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_DYDemoToolsVersionString[];
 

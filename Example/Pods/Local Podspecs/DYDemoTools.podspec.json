@@ -1,22 +1,41 @@
 {
   "name": "DYDemoTools",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of DYDemoTools.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/SSMouseGamer@163.com/DYDemoTools",
+  "homepage": "https://github.com/liyunxin/DYDemoTools",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "SSMouseGamer@163.com": "447674668@qq.com"
+    "liyunxin": "447674668@qq.com"
   },
   "source": {
-    "git": "https://github.com/SSMouseGamer@163.com/DYDemoTools.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/liyunxin/DYDemoTools.git",
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "DYDemoTools/Classes/**/*"
+  "frameworks": "UIKit",
+  "subspecs": [
+    {
+      "name": "0_Base",
+      "source_files": "DYDemoTools/0_Base/**/*.{h,m}",
+      "resource_bundles": {
+        "DYDemoTools": [
+          "DYDemoTools/0_Base/*.xcassets"
+        ]
+      }
+    },
+    {
+      "name": "1_Tools",
+      "source_files": "DYDemoTools/1_Tools/**/*.{h,m}"
+    },
+    {
+      "name": "2_View",
+      "source_files": "DYDemoTools/2_View/**/*.{h,m}"
+    }
+  ]
 }

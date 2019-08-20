@@ -2,16 +2,15 @@
 //  main.m
 //  DYDemoTools
 //
-//  Created by SSMouseGamer@163.com on 08/20/2019.
-//  Copyright (c) 2019 SSMouseGamer@163.com. All rights reserved.
+//  Created by 李云新 on 2019/8/20.
+//  Copyright © 2019年 Lambert. All rights reserved.
 //
 
-@import UIKit;
-#import "DYAppDelegate.h"
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-int main(int argc, char * argv[])
-{
+int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([DYAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
