@@ -1,11 +1,11 @@
 PODS:
-  - DYDemoTools (0.0.1):
-    - DYDemoTools/0_Base (= 0.0.1)
-    - DYDemoTools/1_Tools (= 0.0.1)
-    - DYDemoTools/2_View (= 0.0.1)
-  - DYDemoTools/0_Base (0.0.1)
-  - DYDemoTools/1_Tools (0.0.1)
-  - DYDemoTools/2_View (0.0.1)
+  - DYDemoTools (0.0.2):
+    - DYDemoTools/0_Base (= 0.0.2)
+    - DYDemoTools/1_Tools (= 0.0.2)
+    - DYDemoTools/2_View (= 0.0.2)
+  - DYDemoTools/0_Base (0.0.2)
+  - DYDemoTools/1_Tools (0.0.2)
+  - DYDemoTools/2_View (0.0.2)
 
 DEPENDENCIES:
   - DYDemoTools (from `../`)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DYDemoTools: 054f1111d8f599b40ae3f33fdadddbec153fc66a
+  DYDemoTools: 0da979c434321366518dfabf0a423c4b3c67b85f
 
 PODFILE CHECKSUM: 48f9602604def64155d425845b6991fb13c5e762
 

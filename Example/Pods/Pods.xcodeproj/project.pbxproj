@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11936BAAAD9D19492E7A89B79429A796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		0B4A30B9DC8D59446058F0F238B04387 /* DYDemoTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4252B132DFE39C9247B31C33D7C96B /* DYDemoTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F82663A378899CDB17FB303F138BADD /* DYDemoTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AC428FA3E18BBADA61D86A6998DC8C /* DYDemoTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12060F07B3F1DAC662E51809B31B7A1C /* DYDemoTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 720333F07C8C2BAC6DBEC0E846D62B5B /* DYDemoTools-dummy.m */; };
 		1F61190261EBED3970083F7F1C809A8E /* Pods-DYDemoTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9ABB1299609834595D92FA3885ED3EE /* Pods-DYDemoTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20C86E1F68B92A034E6AE7CB59F7CE5C /* DYDemoTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8B26E3022D6309D650DF7D8680F015 /* DYDemoTools-dummy.m */; };
-		44094DDC41F4E5E0F343BED657CF42FC /* KHBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA57C951BBBEB2A91C3446088878F35 /* KHBarButton.m */; };
+		1FFE69473971E2EB2E60FF23B2B23643 /* DYDemoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EE44CC85420169D811B57C8FFF0D30 /* DYDemoTools.m */; };
+		414559210C20494198CC273D85DC73CA /* DYDemoToolsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CF1FEF9B6812F15A79DF868EB424DD /* DYDemoToolsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F037DB0FD97CE3E3CB57D78409732A7 /* Pods-DYDemoTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F075F0494F1BB061F17E03971521EC /* Pods-DYDemoTools-dummy.m */; };
+		5F54BA074B3AC241509EF744D46AAE50 /* KHBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3612CDCB330F0F54AB1C2774D332FC4 /* KHBarButton.m */; };
+		83E2563C38EE4545876D12C2B4E86A12 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C8F1997061D49D2F65E32715E0597A2 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FD0C33981F5DA960E7DE03E389B0039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		942AE1B179593A523AACDD66D69DAF14 /* DYDemoTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 55CDB02FA71B21E28C6674CD82F1EF7F /* DYDemoTools.bundle */; };
-		9A45CAC3A6BAB4CA5FAE6ADA1FF26397 /* DYDemoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC44A3D8EDF776EE671F9758DFDC6D6 /* DYDemoTools.m */; };
-		B053D3B10EF9864E5095A7A5487C7D77 /* DYDemoToolsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE1083B02A8A51C02B4A8FB2787A449 /* DYDemoToolsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4811656E7580D6F35E73335DF3BBDBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		CA8E28C9D957F4FB7E24D8F1FC0AE9BE /* KHBarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1795FD449594942F4FE6E2D41B7558C2 /* KHBarButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA68074387AC1EE79F31EB7DD6E782FE /* DYDemoTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C78F432441A45B58DD179F5F55F78C /* DYDemoTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EECC79F12A8BFC8F29CB32576CCD6BF5 /* DYDemoTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B636D6F0D8A1AB8FA3223B6F66850F5C /* DYDemoTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA49AAA3339961565E2C960ACD2F619C /* DYDemoToolsAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2741FADA5F1AF76F38489A4C77BFDD5 /* DYDemoToolsAsset.xcassets */; };
+		938273DA58FBAB85D391D0277020FB73 /* KHBarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 082D601C589FFF933D705EFE8DA032DE /* KHBarButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98799D860CA1A9945B4370A6167C8902 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A448C16D41B945C359D4350E72162DA2 /* CTMediator.m */; };
+		A5772C346B9F06C3B110E90ADEA9BA4D /* DYDemoTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 55CDB02FA71B21E28C6674CD82F1EF7F /* DYDemoTools.bundle */; };
+		A80EBF9C1A934446D6109D2A6A097FFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		CB328D3AE54BEDEF5060A2880F5BB6F4 /* DYDemoToolsAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C040074AECDB5A092078C5DADF4A4DC /* DYDemoToolsAsset.xcassets */; };
+		CCCCB934498E023A6933D2DFA773B27F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		522F9446F9DDC14E0E80E4930FAAB114 /* PBXContainerItemProxy */ = {
+		927F23301391A04F9CEAF2DBFFB7246D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,43 +43,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01EE44CC85420169D811B57C8FFF0D30 /* DYDemoTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DYDemoTools.m; path = DYDemoTools/1_Tools/DYDemoTools.m; sourceTree = "<group>"; };
+		082D601C589FFF933D705EFE8DA032DE /* KHBarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHBarButton.h; path = DYDemoTools/2_View/KHBarButton.h; sourceTree = "<group>"; };
+		0C040074AECDB5A092078C5DADF4A4DC /* DYDemoToolsAsset.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = DYDemoToolsAsset.xcassets; path = DYDemoTools/0_Base/DYDemoToolsAsset.xcassets; sourceTree = "<group>"; };
+		0C8F1997061D49D2F65E32715E0597A2 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = DYDemoTools/1_Tools/CTMediator.h; sourceTree = "<group>"; };
 		113DDBE0626C9C242C7C14D6D16BE76B /* Pods-DYDemoTools-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYDemoTools-acknowledgements.plist"; sourceTree = "<group>"; };
 		12CA6AA7BFDD9F194CDD5F0CA5584329 /* Pods-DYDemoTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYDemoTools-Info.plist"; sourceTree = "<group>"; };
-		1795FD449594942F4FE6E2D41B7558C2 /* KHBarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHBarButton.h; path = DYDemoTools/2_View/KHBarButton.h; sourceTree = "<group>"; };
-		2410B494149C0F859AA5F3A4228382C3 /* DYDemoTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DYDemoTools.modulemap; sourceTree = "<group>"; };
-		2CA57C951BBBEB2A91C3446088878F35 /* KHBarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KHBarButton.m; path = DYDemoTools/2_View/KHBarButton.m; sourceTree = "<group>"; };
 		2EF974FDB8B3357AB5144ABE0A251A74 /* DYDemoTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DYDemoTools.framework; path = DYDemoTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FEC9AD496A1B8C03483E649DD08D3E0 /* DYDemoTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DYDemoTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		33045FF21177EA3EFE2BCA1FC38A2705 /* DYDemoTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYDemoTools.xcconfig; sourceTree = "<group>"; };
-		40DE65076F7772B1C11C8F3CF310ACD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		341EF24B17B81452661B7661C026D6B0 /* DYDemoTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYDemoTools-prefix.pch"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C280E858EFA9CAE14B1E185F32A16C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		55AC428FA3E18BBADA61D86A6998DC8C /* DYDemoTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYDemoTools-umbrella.h"; sourceTree = "<group>"; };
 		55CDB02FA71B21E28C6674CD82F1EF7F /* DYDemoTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DYDemoTools.bundle; path = "DYDemoTools-DYDemoTools.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FC44A3D8EDF776EE671F9758DFDC6D6 /* DYDemoTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DYDemoTools.m; path = DYDemoTools/1_Tools/DYDemoTools.m; sourceTree = "<group>"; };
+		5B7EAA05F0FD6543ECBA12F1C0F14E97 /* DYDemoTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DYDemoTools-Info.plist"; sourceTree = "<group>"; };
 		67E3C2FB33C8B1773F1652B020B60447 /* Pods-DYDemoTools-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYDemoTools-acknowledgements.markdown"; sourceTree = "<group>"; };
-		741E8075B590EBE18DC28D91705E5A89 /* DYDemoTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DYDemoTools-Info.plist"; sourceTree = "<group>"; };
+		6E5669A72BE02ACDE34595F77CF361BF /* DYDemoTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DYDemoTools.modulemap; sourceTree = "<group>"; };
+		720333F07C8C2BAC6DBEC0E846D62B5B /* DYDemoTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DYDemoTools-dummy.m"; sourceTree = "<group>"; };
+		73CF1FEF9B6812F15A79DF868EB424DD /* DYDemoToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYDemoToolsHeader.h; path = DYDemoTools/0_Base/DYDemoToolsHeader.h; sourceTree = "<group>"; };
+		7F4252B132DFE39C9247B31C33D7C96B /* DYDemoTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYDemoTools.h; path = DYDemoTools/1_Tools/DYDemoTools.h; sourceTree = "<group>"; };
 		91F075F0494F1BB061F17E03971521EC /* Pods-DYDemoTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYDemoTools-dummy.m"; sourceTree = "<group>"; };
 		932F4B052E060537B410125E232C7B85 /* Pods_DYDemoTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DYDemoTools.framework; path = "Pods-DYDemoTools.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		956CDFB68ECE7730A656478BFA05CFF9 /* DYDemoTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DYDemoTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0F2062E1CB6945D527127AA15F64489 /* Pods-DYDemoTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYDemoTools.debug.xcconfig"; sourceTree = "<group>"; };
-		AE7084A1E3E8C42FAB602C077B75A5F1 /* ResourceBundle-DYDemoTools-DYDemoTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DYDemoTools-DYDemoTools-Info.plist"; sourceTree = "<group>"; };
+		A448C16D41B945C359D4350E72162DA2 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = DYDemoTools/1_Tools/CTMediator.m; sourceTree = "<group>"; };
+		B05E0F0ED4D36AF09A6F0A68449A17BA /* ResourceBundle-DYDemoTools-DYDemoTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DYDemoTools-DYDemoTools-Info.plist"; sourceTree = "<group>"; };
 		B354C74DA8E96DAF2D1D0A69D16B9485 /* Pods-DYDemoTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYDemoTools.release.xcconfig"; sourceTree = "<group>"; };
-		B636D6F0D8A1AB8FA3223B6F66850F5C /* DYDemoTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYDemoTools.h; path = DYDemoTools/1_Tools/DYDemoTools.h; sourceTree = "<group>"; };
+		B3612CDCB330F0F54AB1C2774D332FC4 /* KHBarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KHBarButton.m; path = DYDemoTools/2_View/KHBarButton.m; sourceTree = "<group>"; };
 		B986B0237030E68E7D760C3B4A7F1D2F /* Pods-DYDemoTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DYDemoTools.modulemap"; sourceTree = "<group>"; };
-		BE9A3663D2006FE503B8DBD50561A91B /* DYDemoTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYDemoTools-prefix.pch"; sourceTree = "<group>"; };
-		BEE1083B02A8A51C02B4A8FB2787A449 /* DYDemoToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYDemoToolsHeader.h; path = DYDemoTools/0_Base/DYDemoToolsHeader.h; sourceTree = "<group>"; };
-		C8C78F432441A45B58DD179F5F55F78C /* DYDemoTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYDemoTools-umbrella.h"; sourceTree = "<group>"; };
+		CD455D6D7698CFA2EA87DB92C5ACAB64 /* DYDemoTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYDemoTools.xcconfig; sourceTree = "<group>"; };
 		D9ABB1299609834595D92FA3885ED3EE /* Pods-DYDemoTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYDemoTools-umbrella.h"; sourceTree = "<group>"; };
-		E2741FADA5F1AF76F38489A4C77BFDD5 /* DYDemoToolsAsset.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = DYDemoToolsAsset.xcassets; path = DYDemoTools/0_Base/DYDemoToolsAsset.xcassets; sourceTree = "<group>"; };
 		EA87818858B9A179E929A764425AA861 /* Pods-DYDemoTools-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYDemoTools-frameworks.sh"; sourceTree = "<group>"; };
-		FD8B26E3022D6309D650DF7D8680F015 /* DYDemoTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DYDemoTools-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5DE25BF3CB98CD7AA2CFD0A44EAA9003 /* Frameworks */ = {
+		AB1DD13F11F487CEBB6E57296AED17E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80EBF9C1A934446D6109D2A6A097FFA /* Foundation.framework in Frameworks */,
+				CCCCB934498E023A6933D2DFA773B27F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,25 +95,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBC66B8EB900270BFCEEDFEBB353A2AC /* Frameworks */ = {
+		E4739AE65662D07DDD5B44AB736561A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11936BAAAD9D19492E7A89B79429A796 /* Foundation.framework in Frameworks */,
-				C4811656E7580D6F35E73335DF3BBDBA /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09C71D905460B54759BD67C20327D33F /* Pod */ = {
+		150B4DCDF81B6D922718C0153F5B7E2F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2FEC9AD496A1B8C03483E649DD08D3E0 /* DYDemoTools.podspec */,
-				40DE65076F7772B1C11C8F3CF310ACD3 /* LICENSE */,
+				6E5669A72BE02ACDE34595F77CF361BF /* DYDemoTools.modulemap */,
+				CD455D6D7698CFA2EA87DB92C5ACAB64 /* DYDemoTools.xcconfig */,
+				720333F07C8C2BAC6DBEC0E846D62B5B /* DYDemoTools-dummy.m */,
+				5B7EAA05F0FD6543ECBA12F1C0F14E97 /* DYDemoTools-Info.plist */,
+				341EF24B17B81452661B7661C026D6B0 /* DYDemoTools-prefix.pch */,
+				55AC428FA3E18BBADA61D86A6998DC8C /* DYDemoTools-umbrella.h */,
+				B05E0F0ED4D36AF09A6F0A68449A17BA /* ResourceBundle-DYDemoTools-DYDemoTools-Info.plist */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DYDemoTools";
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -118,11 +128,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		74910B9AB4A391DE227F73E25487887A /* 1_Tools */ = {
+		173D6AD92B3BC5349E567864087FFE13 /* DYDemoTools */ = {
 			isa = PBXGroup;
 			children = (
-				B636D6F0D8A1AB8FA3223B6F66850F5C /* DYDemoTools.h */,
-				5FC44A3D8EDF776EE671F9758DFDC6D6 /* DYDemoTools.m */,
+				A20B1908118C517D0F0C5D56E45AE0A5 /* 0_Base */,
+				2596FAD3A8572E404506930B893AADD4 /* 1_Tools */,
+				C9A2E6FFB0A3F2576ADF72FA85DB57BC /* 2_View */,
+				1EAD8DCFC21FE110C7ACF0ACBB1D2F66 /* Pod */,
+				150B4DCDF81B6D922718C0153F5B7E2F /* Support Files */,
+			);
+			name = DYDemoTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1EAD8DCFC21FE110C7ACF0ACBB1D2F66 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				956CDFB68ECE7730A656478BFA05CFF9 /* DYDemoTools.podspec */,
+				4C280E858EFA9CAE14B1E185F32A16C3 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2596FAD3A8572E404506930B893AADD4 /* 1_Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0C8F1997061D49D2F65E32715E0597A2 /* CTMediator.h */,
+				A448C16D41B945C359D4350E72162DA2 /* CTMediator.m */,
+				7F4252B132DFE39C9247B31C33D7C96B /* DYDemoTools.h */,
+				01EE44CC85420169D811B57C8FFF0D30 /* DYDemoTools.m */,
 			);
 			name = 1_Tools;
 			sourceTree = "<group>";
@@ -144,19 +178,12 @@
 			path = "Target Support Files/Pods-DYDemoTools";
 			sourceTree = "<group>";
 		};
-		979D8AAA8AFAC7ECA9191029CCB787B9 /* Support Files */ = {
+		88B8425D29FDED02E50856E1A63EB23E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2410B494149C0F859AA5F3A4228382C3 /* DYDemoTools.modulemap */,
-				33045FF21177EA3EFE2BCA1FC38A2705 /* DYDemoTools.xcconfig */,
-				FD8B26E3022D6309D650DF7D8680F015 /* DYDemoTools-dummy.m */,
-				741E8075B590EBE18DC28D91705E5A89 /* DYDemoTools-Info.plist */,
-				BE9A3663D2006FE503B8DBD50561A91B /* DYDemoTools-prefix.pch */,
-				C8C78F432441A45B58DD179F5F55F78C /* DYDemoTools-umbrella.h */,
-				AE7084A1E3E8C42FAB602C077B75A5F1 /* ResourceBundle-DYDemoTools-DYDemoTools-Info.plist */,
+				0C040074AECDB5A092078C5DADF4A4DC /* DYDemoToolsAsset.xcassets */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DYDemoTools";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9A70645A6D3D32B507BF09F553DC2C6D /* Products */ = {
@@ -172,22 +199,27 @@
 		9F724613485537555BFA1D98EDA09CB6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AE634E96DE0BB03B8786B2622313B9BB /* DYDemoTools */,
+				173D6AD92B3BC5349E567864087FFE13 /* DYDemoTools */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		AE634E96DE0BB03B8786B2622313B9BB /* DYDemoTools */ = {
+		A20B1908118C517D0F0C5D56E45AE0A5 /* 0_Base */ = {
 			isa = PBXGroup;
 			children = (
-				E2DA1237C48514A5D36D333E3D36C9AE /* 0_Base */,
-				74910B9AB4A391DE227F73E25487887A /* 1_Tools */,
-				E5491C09C0727F3479865B4CC74D80CB /* 2_View */,
-				09C71D905460B54759BD67C20327D33F /* Pod */,
-				979D8AAA8AFAC7ECA9191029CCB787B9 /* Support Files */,
+				73CF1FEF9B6812F15A79DF868EB424DD /* DYDemoToolsHeader.h */,
+				88B8425D29FDED02E50856E1A63EB23E /* Resources */,
 			);
-			name = DYDemoTools;
-			path = ../..;
+			name = 0_Base;
+			sourceTree = "<group>";
+		};
+		C9A2E6FFB0A3F2576ADF72FA85DB57BC /* 2_View */ = {
+			isa = PBXGroup;
+			children = (
+				082D601C589FFF933D705EFE8DA032DE /* KHBarButton.h */,
+				B3612CDCB330F0F54AB1C2774D332FC4 /* KHBarButton.m */,
+			);
+			name = 2_View;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -201,14 +233,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D92717B7909F7D094DE3104C41340A3B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E2741FADA5F1AF76F38489A4C77BFDD5 /* DYDemoToolsAsset.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,24 +240,6 @@
 				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		E2DA1237C48514A5D36D333E3D36C9AE /* 0_Base */ = {
-			isa = PBXGroup;
-			children = (
-				BEE1083B02A8A51C02B4A8FB2787A449 /* DYDemoToolsHeader.h */,
-				D92717B7909F7D094DE3104C41340A3B /* Resources */,
-			);
-			name = 0_Base;
-			sourceTree = "<group>";
-		};
-		E5491C09C0727F3479865B4CC74D80CB /* 2_View */ = {
-			isa = PBXGroup;
-			children = (
-				1795FD449594942F4FE6E2D41B7558C2 /* KHBarButton.h */,
-				2CA57C951BBBEB2A91C3446088878F35 /* KHBarButton.m */,
-			);
-			name = 2_View;
 			sourceTree = "<group>";
 		};
 		F0B8C33376C189FC714A06A9D7F8C275 /* Targets Support Files */ = {
@@ -247,17 +253,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3D1C7A6FB70AB7A83781809C97114A72 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA68074387AC1EE79F31EB7DD6E782FE /* DYDemoTools-umbrella.h in Headers */,
-				EECC79F12A8BFC8F29CB32576CCD6BF5 /* DYDemoTools.h in Headers */,
-				B053D3B10EF9864E5095A7A5487C7D77 /* DYDemoToolsHeader.h in Headers */,
-				CA8E28C9D957F4FB7E24D8F1FC0AE9BE /* KHBarButton.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		997B482B5C9115BCD33F19D56B4CC9BB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,16 +261,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCE3BF7F19C23D264E227839376C8902 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E2563C38EE4545876D12C2B4E86A12 /* CTMediator.h in Headers */,
+				0F82663A378899CDB17FB303F138BADD /* DYDemoTools-umbrella.h in Headers */,
+				0B4A30B9DC8D59446058F0F238B04387 /* DYDemoTools.h in Headers */,
+				414559210C20494198CC273D85DC73CA /* DYDemoToolsHeader.h in Headers */,
+				938273DA58FBAB85D391D0277020FB73 /* KHBarButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4012E52FF8922C091E497D9C49454547 /* DYDemoTools-DYDemoTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D71169292E122E0307E4A4662782CDF7 /* Build configuration list for PBXNativeTarget "DYDemoTools-DYDemoTools" */;
+			buildConfigurationList = 5D99192654EAD1C2E3C4ECD9E82D23F7 /* Build configuration list for PBXNativeTarget "DYDemoTools-DYDemoTools" */;
 			buildPhases = (
-				882C7816BF22B0471754EB3917B16B97 /* Sources */,
-				5DE25BF3CB98CD7AA2CFD0A44EAA9003 /* Frameworks */,
-				0F0A18351CDCEA7B157A3EEEDEA38673 /* Resources */,
+				CFD79FFEAE1535ED3A9A3509E007BB37 /* Sources */,
+				E4739AE65662D07DDD5B44AB736561A6 /* Frameworks */,
+				CF455BAE16ADC12E3F194C87B4DB96E3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -307,17 +314,17 @@
 		};
 		BEF6F793FC9CB721FA395B558D497E71 /* DYDemoTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B68470A2965C82A01DFE92E74855E6C4 /* Build configuration list for PBXNativeTarget "DYDemoTools" */;
+			buildConfigurationList = A46E3EBA2B3C605B5BB33B9F62EA9818 /* Build configuration list for PBXNativeTarget "DYDemoTools" */;
 			buildPhases = (
-				3D1C7A6FB70AB7A83781809C97114A72 /* Headers */,
-				AD5821E870AE4FAAFE5594D02E0EC089 /* Sources */,
-				CBC66B8EB900270BFCEEDFEBB353A2AC /* Frameworks */,
-				D3D19840DA558C59D7CE2D3C9C7D69E0 /* Resources */,
+				FCE3BF7F19C23D264E227839376C8902 /* Headers */,
+				0474B226907F3173E2C95A8E68F5EFCE /* Sources */,
+				AB1DD13F11F487CEBB6E57296AED17E5 /* Frameworks */,
+				F3C56367664A20728C839E04B95661A7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				32527F54186DDF00C0CEFCBD4B306602 /* PBXTargetDependency */,
+				F26D6E559FDB4A0F74385F435C9A5EE2 /* PBXTargetDependency */,
 			);
 			name = DYDemoTools;
 			productName = DYDemoTools;
@@ -353,14 +360,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F0A18351CDCEA7B157A3EEEDEA38673 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA49AAA3339961565E2C960ACD2F619C /* DYDemoToolsAsset.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C2384C7DD2107009A22634B05CF8FB99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,17 +367,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D19840DA558C59D7CE2D3C9C7D69E0 /* Resources */ = {
+		CF455BAE16ADC12E3F194C87B4DB96E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				942AE1B179593A523AACDD66D69DAF14 /* DYDemoTools.bundle in Resources */,
+				CB328D3AE54BEDEF5060A2880F5BB6F4 /* DYDemoToolsAsset.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C56367664A20728C839E04B95661A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5772C346B9F06C3B110E90ADEA9BA4D /* DYDemoTools.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0474B226907F3173E2C95A8E68F5EFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98799D860CA1A9945B4370A6167C8902 /* CTMediator.m in Sources */,
+				12060F07B3F1DAC662E51809B31B7A1C /* DYDemoTools-dummy.m in Sources */,
+				1FFE69473971E2EB2E60FF23B2B23643 /* DYDemoTools.m in Sources */,
+				5F54BA074B3AC241509EF744D46AAE50 /* KHBarButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1355A7A9DF708E87C4640360FDDE4CD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,20 +405,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		882C7816BF22B0471754EB3917B16B97 /* Sources */ = {
+		CFD79FFEAE1535ED3A9A3509E007BB37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD5821E870AE4FAAFE5594D02E0EC089 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20C86E1F68B92A034E6AE7CB59F7CE5C /* DYDemoTools-dummy.m in Sources */,
-				9A45CAC3A6BAB4CA5FAE6ADA1FF26397 /* DYDemoTools.m in Sources */,
-				44094DDC41F4E5E0F343BED657CF42FC /* KHBarButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,11 +421,11 @@
 			target = BEF6F793FC9CB721FA395B558D497E71 /* DYDemoTools */;
 			targetProxy = F54A0DF5049C023F13B126D50AF90F04 /* PBXContainerItemProxy */;
 		};
-		32527F54186DDF00C0CEFCBD4B306602 /* PBXTargetDependency */ = {
+		F26D6E559FDB4A0F74385F435C9A5EE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "DYDemoTools-DYDemoTools";
 			target = 4012E52FF8922C091E497D9C49454547 /* DYDemoTools-DYDemoTools */;
-			targetProxy = 522F9446F9DDC14E0E80E4930FAAB114 /* PBXContainerItemProxy */;
+			targetProxy = 927F23301391A04F9CEAF2DBFFB7246D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -524,9 +532,9 @@
 			};
 			name = Debug;
 		};
-		36794EB34CEC68D256F00D51EBCC5D0E /* Release */ = {
+		7A4440BCACA94F4D6F7FD97E5D1E5424 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33045FF21177EA3EFE2BCA1FC38A2705 /* DYDemoTools.xcconfig */;
+			baseConfigurationReference = CD455D6D7698CFA2EA87DB92C5ACAB64 /* DYDemoTools.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -554,43 +562,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		39198BC63CF3437AC08888EE5628A43B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33045FF21177EA3EFE2BCA1FC38A2705 /* DYDemoTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DYDemoTools";
-				INFOPLIST_FILE = "Target Support Files/DYDemoTools/ResourceBundle-DYDemoTools-DYDemoTools-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = DYDemoTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
 			name = Debug;
-		};
-		A2B22D7E0DF3D756CDE4568E10B1CE3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33045FF21177EA3EFE2BCA1FC38A2705 /* DYDemoTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DYDemoTools";
-				INFOPLIST_FILE = "Target Support Files/DYDemoTools/ResourceBundle-DYDemoTools-DYDemoTools-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = DYDemoTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		AB34BBBCFB54C35D3719BCE6A7CAA2B9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -691,9 +666,9 @@
 			};
 			name = Release;
 		};
-		EBC1E6BC603241582ECC2FDFBD0126E7 /* Debug */ = {
+		CA9D846701444C550AA2B2D479E67962 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33045FF21177EA3EFE2BCA1FC38A2705 /* DYDemoTools.xcconfig */;
+			baseConfigurationReference = CD455D6D7698CFA2EA87DB92C5ACAB64 /* DYDemoTools.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -721,8 +696,41 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCF7B1D19670AF242F71FADA12E01AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD455D6D7698CFA2EA87DB92C5ACAB64 /* DYDemoTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DYDemoTools";
+				INFOPLIST_FILE = "Target Support Files/DYDemoTools/ResourceBundle-DYDemoTools-DYDemoTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = DYDemoTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E00134864696026F96A0F2CD1FB2CF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD455D6D7698CFA2EA87DB92C5ACAB64 /* DYDemoTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DYDemoTools";
+				INFOPLIST_FILE = "Target Support Files/DYDemoTools/ResourceBundle-DYDemoTools-DYDemoTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = DYDemoTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -738,6 +746,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5D99192654EAD1C2E3C4ECD9E82D23F7 /* Build configuration list for PBXNativeTarget "DYDemoTools-DYDemoTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00134864696026F96A0F2CD1FB2CF70 /* Debug */,
+				DCF7B1D19670AF242F71FADA12E01AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5F4A58F2150FDB707DB75C057E57180F /* Build configuration list for PBXNativeTarget "Pods-DYDemoTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -747,20 +764,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B68470A2965C82A01DFE92E74855E6C4 /* Build configuration list for PBXNativeTarget "DYDemoTools" */ = {
+		A46E3EBA2B3C605B5BB33B9F62EA9818 /* Build configuration list for PBXNativeTarget "DYDemoTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBC1E6BC603241582ECC2FDFBD0126E7 /* Debug */,
-				36794EB34CEC68D256F00D51EBCC5D0E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D71169292E122E0307E4A4662782CDF7 /* Build configuration list for PBXNativeTarget "DYDemoTools-DYDemoTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39198BC63CF3437AC08888EE5628A43B /* Debug */,
-				A2B22D7E0DF3D756CDE4568E10B1CE3D /* Release */,
+				7A4440BCACA94F4D6F7FD97E5D1E5424 /* Debug */,
+				CA9D846701444C550AA2B2D479E67962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
