@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DYDemoTools'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of DYDemoTools.'
 
   s.description      = <<-DESC
@@ -31,3 +31,6 @@ Pod::Spec.new do |s|
   end
   
 end
+
+#本地：pod lib  lint --allow-warnings
+#pod repo push DYDemoSpecs DYDemoTools.podspec --allow-warnings
